@@ -128,8 +128,11 @@ h2 {
 .author-profile {
   position: relative;
 }
-.author-profile img {
-  display: block;
+.imgwrapper {
+  display: inline-block;
+  position:relative;
+  background-image:url(images/cage.jpg);
+  background-size:cover;
   margin:auto;
   width: 75px;
   height: 75px;
@@ -141,10 +144,10 @@ h2 {
   margin:auto;
   width: 75px;
   height: 75px;
-  position: relative;
+  position: absolute;
   background-color: rgba(0, 118, 202, 0.5);
-  top: 0;
-  right: 66px;
+  /*top: 0;
+  right: 66px;*/
   border-radius: 100%;
 }
 .author-profile p {
